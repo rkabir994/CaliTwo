@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-08T09:29:52 PDT" name="Default suite" finished-at="2021-08-08T09:30:49 PDT" duration-ms="57169">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CaliTwoTestRunner.TestRunner_Cali@3a6bb9bf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-08T09:29:52 PDT" name="Default test" finished-at="2021-08-08T09:30:49 PDT" duration-ms="57169">
+      <class name="CaliTwoTestRunner.TestRunner_Cali">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:CaliTwoTestRunner.TestRunner_Cali@3a6bb9bf]" started-at="2021-08-08T09:29:52 PDT" name="OpenBrowser" finished-at="2021-08-08T09:30:00 PDT" duration-ms="7962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:CaliTwoTestRunner.TestRunner_Cali@3a6bb9bf]" started-at="2021-08-08T09:30:00 PDT" name="setUpClass" finished-at="2021-08-08T09:30:00 PDT" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CaliTwoTestRunner.TestRunner_Cali@3a6bb9bf]" started-at="2021-08-08T09:30:00 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-08T09:30:49 PDT" duration-ms="48375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Multiple browser open and check accessability]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CaliTwoTestRunner.TestRunner_Cali@3a6bb9bf]" started-at="2021-08-08T09:30:49 PDT" name="tearDownClass" finished-at="2021-08-08T09:30:49 PDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="Closeebrowser()[pri:0, instance:CaliTwoTestRunner.TestRunner_Cali@3a6bb9bf]" started-at="2021-08-08T09:30:49 PDT" name="Closeebrowser" finished-at="2021-08-08T09:30:49 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closeebrowser -->
+      </class> <!-- CaliTwoTestRunner.TestRunner_Cali -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

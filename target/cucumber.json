@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successfully open Amazon and search for specific nike shoes",
+        "description": "",
+        "id": "multiple-browser-open-and-check-accessability;successfully-open-amazon-and-search-for-specific-nike-shoes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10966711400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch chrome browser \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 23
+                }
+              ],
+              "location": "CaliStepDefinitionHomePage.launch_chrome_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3687499900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to Amazon home page",
+            "match": {
+              "location": "CaliStepDefinitionHomePage.navigate_to_Amazon_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6356495300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search for \"Nike mens shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nike mens shoes",
+                  "offset": 12
+                }
+              ],
+              "location": "CaliStepDefinitionHomePage.search_for(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7813620300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search for specific nike shoes",
+            "match": {
+              "location": "CaliStepDefinitionHomePage.search_for_specific_nike_shoes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 606008400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify specific nike shoes title \"Men\u0027s Flex Control TR3 Sneaker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Men\u0027s Flex Control TR3 Sneaker",
+                  "offset": 34
+                }
+              ],
+              "location": "CaliStepDefinitionHomePage.verify_specific_nike_shoes_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@CaliTwoAm"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "After Amazon Navigate to FaceBook and login successfully",
+        "description": "",
+        "id": "multiple-browser-open-and-check-accessability;after-amazon-navigate-to-facebook-and-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9977531300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "open FaceBook home page",
+            "match": {
+              "location": "CaliStepDefinitionHomePage.open_FaceBook_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 617895600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter username and password and click login button",
+            "match": {
+              "location": "CaliStepDefinitionHomePage.enter_username_and_password_and_click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5835371000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify User on his own page",
+            "match": {
+              "location": "CaliStepDefinitionHomePage.verify_User_on_his_own_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2248675300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close FaceBook and quit",
+            "match": {
+              "location": "CaliStepDefinitionHomePage.close_FaceBook_and_quit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@CaliTwoAm"
+          }
+        ]
+      }
+    ],
+    "name": "Multiple browser open and check accessability",
+    "description": "",
+    "id": "multiple-browser-open-and-check-accessability",
+    "keyword": "Feature",
+    "uri": "HomepageCaliTwo.feature"
+  }
+]
